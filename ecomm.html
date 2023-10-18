@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your E-Commerce Website</title>
+    <link rel="stylesheet" href="estyle.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Diwakar's store</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div id="cart">Cart</div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="product-list">
+            <!-- Product cards and display will go here -->
+        </section>
+
+        <section id="cart-section">
+            <h2>Shopping Cart</h2>
+            <ul id="cart-items"></ul>
+            <p>Total: ₹<span id="cart-total">0.00</span></p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Diwakar's store</p>
+        </div>
+    </footer>
+
+    <script src="file.js"></script>
+</body>
+
+</html>
+
+<section id="product-list">
+    <div class="product-card">
+        <h3>T-shirt</h3>
+        <img src="t shirt.jpg" 
+        width="100px" height="100px">
+        <p>Men's Regular Fit Polo Shirt</p>
+        <p>₹599</p>
+        <button onclick="addToCart(1)">Add to Cart</button>
+    </div>
+    <div class="product-card">
+        <h3>Shoe</h3>
+        <img src="shoe.jpg" 
+        width="200px" height="100px">
+        <p>Shoes for Men | for Boys | Comfortable, Flexible and Breathable.</p>
+        <p>₹999</p>
+        <button onclick="addToCart(2)">Add to Cart</button>
+    </div>
+    <div class="product-card">
+        <h3>Ipad</h3>
+        <img src="ipad.jpg" 
+        width="100px" height="100px">
+        <p>Apple 2021 10.2-inch (25.91 cm) iPad with A13 Bionic chip (Wi-Fi, 64GB) - Space Grey (9th Generation).</p>
+        <p>₹49,999</p>
+        <button onclick="addToCart(3)">Add to Cart</button>
+    </div>
+    <div class="product-card">
+        <h3>speaker</h3>
+        <img src="speaker.jpg" 
+        width="200px" height="100px">
+        <p>Wireless Portable Bluetooth Speaker .</p>
+        <p>₹1599</p>
+        <button onclick="addToCart(4)">Add to Cart</button>
+    </div>
+    <div class="product-card">
+        <h3>smartwatch</h3>
+        <img src="smartwatch.jpg" 
+        width="100px" height="100px">
+        <p>Ultra HD Display Bluetooth Calling Smart Watch,.</p>
+        <p>₹2999</p>
+        <button onclick="addToCart(5)">Add to Cart</button>
+    </div>
+    <div class="product-card">
+        <h3>mobile</h3>
+        <img src="mobile.jpg" 
+        width="100px" height="100px">
+        <p>120Hz sAMOLED Display|50MP Triple No Shake Cam|6000 mAh Battery|.</p>
+        <p>₹15,999</p>
+        <button onclick="addToCart(6)">Add to Cart</button>
+    </div>
+
+</section>
+<script src="file.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Your E-Commerce Store</title>
+    <link rel="stylesheet" href="estyle.css">
+</head>
+
+<body>
+
+    <header>
+        <!-- Your header content -->
+    </header>
+
+    <main class="container">
+        <section id="about-us">
+            <h2>About Us</h2>
+            <p>Welcome to Your E-Commerce Store! We are committed to providing the best shopping experience for our customers.</p>
+            <p>Our mission is to offer a wide range of high-quality products at competitive prices, ensuring customer satisfaction with every purchase.</p>
+            <p>Contact us at: <a href="diwakardiwa8867@gmail.com">info@example.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Your footer content -->
+    </footer>
+
+</body>
+
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Your E-Commerce Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <!-- Your header content -->
+    </header>
+
+    <main class="container">
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have a question or concern? Reach out to us and we'll get back to you as soon as possible.</p>
+
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+
+            <p>Alternatively, you can reach us at: <a href="mail to:diwakardiwa8867@gmail.com"></a></p>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Your footer content -->
+    </footer> 
+
+</body>
+
+</html>
+
